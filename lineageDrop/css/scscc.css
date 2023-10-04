@@ -1,0 +1,117 @@
+﻿BODY {
+  font-family: Verdana, LiHei Pro, "微軟正黑體";
+  color: #e60000;
+  background: #f2fff2 url("../images/bg03.jpg") no-repeat fixed center;
+}
+
+a {
+  color: #6979bd;
+  transition: all 0.25s ease;
+
+  -webkit-transition: all 0.25s ease;
+
+  -moz-transition: all 0.25s ease;
+
+  -o-transition: all 0.25s ease;
+
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff !important;
+  text-shadow: 0px 0px 5px #000, 0px 0px 8px #000;
+}
+
+a:visited {
+  color: #6979bd;
+}
+
+H1 {
+  font-size: 24pt;
+  text-align: center;
+  font-weight: 300;
+  color: #00ffb3;
+}
+
+H2 {
+  font-size: 18pt;
+  text-align: center;
+  font-weight: 300;
+  color: #ccc;
+}
+
+H3 {
+  font-size: 14pt;
+  text-align: center;
+  font-weight: 300;
+  color: #ccc;
+}
+
+.wrap {
+  position: absolute;
+
+  left: 50%;
+
+  top: 50%;
+
+  width: 600px;
+
+  background: rgba(238, 238, 238, 0.9);
+
+  margin-left: -300px;
+
+  margin-top: -300px;
+
+  border-radius: 50px;
+
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.58);
+}
+
+.scar_bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.toptr {
+  background: #eee;
+
+  height: 40px;
+
+  color: #333;
+}
+
+tr.toptr th {
+  font-weight: 300;
+}
+
+.tbody {
+  padding: 50px;
+}
+
+tbody.databody tr:hover {
+  background: #d1d7da;
+
+  color: #24485a;
+}
+
+tbody.databody {
+  line-height: 30px;
+
+  color: #0f0f0f;
+}
+
+input[type="text"] {
+  border-radius: 30px;
+
+  line-height: 24px;
+
+  width: 250px;
+
+  color: #666;
+
+  padding-left: 10px;
+
+  font-family: Verdana, LiHei Pro, "微軟正黑體";
+
+  border: none;
+}
